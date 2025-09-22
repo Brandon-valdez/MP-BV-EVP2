@@ -49,15 +49,18 @@
                     <option value="Decepticons">Decepticons</option>
                     
                   </select>
-            
-                
               </div>
             </div>
-            
+            <div class="mb-3 row">
+              <label for="inputName" class="col-4 col-form-label">Descripcion</label>
+              <div class="col-8">
+                <input type="text" class="form-control" name="descripcion" id="inputName" placeholder="ingrese una descripcion" />
+              </div>
+            </div>
             <div class="mb-3 row">
               <div class="offset-sm-4 col-sm-8">
                 <button type="submit" class="btn btn-primary">
-                  Action
+                  Agregar Faccion
                 </button>
               </div>
             </div>
