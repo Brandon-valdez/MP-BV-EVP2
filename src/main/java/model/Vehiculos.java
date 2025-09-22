@@ -5,6 +5,7 @@ public class Vehiculos {
     private String id_personaje;
     private String tipo;
     private String modelo;
+    private String nombre_personaje; // Nuevo campo
 
     public Vehiculos() {
     }
@@ -46,5 +47,13 @@ public class Vehiculos {
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+
+    public String getNombre_personaje() {
+        return nombre_personaje;
+    }
+
+    public void setNombre_personaje(String nombre_personaje) {
+        this.nombre_personaje = nombre_personaje;
     }
 }
