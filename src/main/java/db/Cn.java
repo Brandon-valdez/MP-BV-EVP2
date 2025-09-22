@@ -11,7 +11,7 @@ public class Cn {
     try {
       Class.forName("com.mysql.cj.jdbc.Driver");
       this.con = DriverManager.getConnection(
-          "jdbc:mysql://localhost:3306/tienda_java?useSSL=false&serverTimezone=UTC",
+          "jdbc:mysql://localhost:3306/transformers_MP_BV?useSSL=false&serverTimezone=UTC",
           "root",
           "");
     } catch (ClassNotFoundException | SQLException e) {
