@@ -72,6 +72,15 @@ public class PersonajesDAO {
         return personaje;
     }
 
+    /**
+     * Método alias para getPersonaje - mantiene consistencia con nomenclatura del controlador
+     * @param id_personaje ID del personaje a buscar
+     * @return Objeto Personajes con los datos encontrados
+     */
+    public Personajes getPersonajeById(int id_personaje) {
+        return getPersonaje(id_personaje);
+    }
+
     public boolean addPersonaje(Personajes personaje) {
         String sql = "insert into personajes(id_faccion, nombre, imagen) values (?, ?, ?)";
 
